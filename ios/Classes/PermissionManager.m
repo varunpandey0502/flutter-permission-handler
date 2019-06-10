@@ -77,8 +77,8 @@
     switch (permission) {
             // case PermissionGroupCalendar:
             // return [EventPermissionStrategy new];
-            // case PermissionGroupCamera:
-            // return [AudioVideoPermissionStrategy new];
+            case PermissionGroupCamera:
+            return [AudioVideoPermissionStrategy new];
             // case PermissionGroupContacts:
             // return [ContactPermissionStrategy new];
             // case PermissionGroupLocation:
